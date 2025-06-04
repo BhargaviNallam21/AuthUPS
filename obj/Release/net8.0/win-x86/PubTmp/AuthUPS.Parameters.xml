@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="AuthUPS" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\bharg\\source\\repos\\AuthUPS\\AuthUPS\\obj\\Release\\net8\.0\\win-x86\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="AuthUPS.Data.ParcelTrackingDBContext" description="" value="Server=tcp:authdbserver1.database.windows.net,1433;Initial Catalog=authdb;Persist Security Info=False;User ID=adminuser;Password=Admin@1234;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\bharg\\source\\repos\\AuthUPS\\AuthUPS\\obj\\Release\\net8\.0\\win-x86\\PubTmp\\EFSQLScripts\\AuthUPS\.Data\.ParcelTrackingDBContext\.sql$" />
+  </parameter>
+</parameters>

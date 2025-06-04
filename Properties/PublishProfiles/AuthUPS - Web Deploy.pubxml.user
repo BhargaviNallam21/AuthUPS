@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAY4jFVU01hkqVbvNUtCCGIgAAAAACAAAAAAAQZgAAAAEAACAAAAA4pm7cAmGtYq0kQbEDjHjC1Hv5jNWWefvU7G87M8IM9QAAAAAOgAAAAAIAACAAAACbRX6WqEaG2bCsAmpaqwnqrAzRDiP66rY6Pa+fWArBBYAAAABQPyWdcajl3SA4LOdJH+4EkxqQNd3yB26bVJ251uaYEok+27HOac9O8ckf3ADosrpCpSQSlx2CXGgd95ohpgHcOshaJOXKu0ufTXRiVjwT0lVWIMV8FkEN3OA0jPis3kJIyH1ieKPKMeegfCTgeq0BG+iPRMLtwKs+XJKqg9LpW0AAAACchZG+FvdCMj74WjDEq8aAhyPPzQRlCeTMp0Gr0mG1ClIFaZiw8cNS5Wd/P/rSY5vDglRKxk9UGd2sZk/i+PUs</EncryptedPassword>
+    <History>True|2025-06-03T19:27:40.2977275Z||;True|2025-06-03T15:13:07.1935546-04:00||;True|2025-06-03T14:44:17.8191550-04:00||;False|2025-06-03T14:42:01.2625137-04:00||;True|2025-06-03T14:36:04.7917076-04:00||;True|2025-06-03T14:14:50.8857850-04:00||;True|2025-06-03T14:03:12.9173780-04:00||;True|2025-06-03T14:01:41.0063590-04:00||;False|2025-06-03T13:45:32.7236514-04:00||;False|2025-06-03T13:41:36.7333238-04:00||;True|2025-06-03T13:37:35.7115226-04:00||;True|2025-06-03T13:33:12.0530561-04:00||;True|2025-06-03T13:23:05.5437062-04:00||;True|2025-06-03T13:18:10.0910901-04:00||;True|2025-06-03T13:16:05.8460369-04:00||;True|2025-06-03T13:12:12.2095314-04:00||;True|2025-06-03T13:08:22.7001386-04:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="AuthUPS.Data.ParcelTrackingDBContext">
+      <Value>Server=tcp:authdbserver1.database.windows.net,1433%3bInitial Catalog=authdb%3bPersist Security Info=False%3bUser ID=adminuser%3bPassword=Admin%401234%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

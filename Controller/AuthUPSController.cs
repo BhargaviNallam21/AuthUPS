@@ -20,13 +20,14 @@ namespace AuthUPS.Controller
         }
 
         [HttpGet("getusers")]
+
         public async Task<IActionResult> getusers()
         {
             return Ok(await _dbContext.users.ToListAsync());
 
         }
 
-
+        [HttpGet]
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] RegisterDTO dto)
         {

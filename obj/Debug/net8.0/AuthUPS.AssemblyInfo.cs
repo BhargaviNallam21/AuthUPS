@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AuthUPS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+feff7c253abb45ba1494538ab898b9c59a0cf42e")]
 [assembly: System.Reflection.AssemblyProductAttribute("AuthUPS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AuthUPS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

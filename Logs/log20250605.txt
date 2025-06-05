@@ -1,0 +1,39 @@
+2025-06-05 10:07:24.019 -04:00 [INF] User profile is available. Using 'C:\Users\bharg\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-05 10:07:24.939 -04:00 [INF] Now listening on: https://localhost:7239
+2025-06-05 10:07:24.946 -04:00 [INF] Now listening on: http://localhost:5027
+2025-06-05 10:07:24.960 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-05 10:07:24.969 -04:00 [INF] Hosting environment: Development
+2025-06-05 10:07:24.975 -04:00 [INF] Content root path: C:\Users\bharg\source\repos\AuthUPS\AuthUPS
+2025-06-05 10:07:27.201 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7239/swagger/index.html - null null
+2025-06-05 10:07:28.169 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7239/swagger/index.html - 200 null text/html;charset=utf-8 995.8968ms
+2025-06-05 10:07:28.175 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7239/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-05 10:07:28.196 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7239/_vs/browserLink - null null
+2025-06-05 10:07:28.226 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7239/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 50.178ms
+2025-06-05 10:07:28.428 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 232.5505ms
+2025-06-05 10:07:28.776 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7239/swagger/v1/swagger.json - null null
+2025-06-05 10:07:29.210 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7239/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 434.4822ms
+2025-06-05 10:07:50.119 -04:00 [INF] Request starting HTTP/2 POST https://localhost:7239/api/AuthUPS - null 0
+2025-06-05 10:07:50.494 -04:00 [INF] Executing endpoint 'AuthUPS.Controller.AuthUPSController.getusers (AuthUPS)'
+2025-06-05 10:07:50.627 -04:00 [INF] Route matched with {action = "getusers", controller = "AuthUPS"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getusers() on controller AuthUPS.Controller.AuthUPSController (AuthUPS).
+2025-06-05 10:07:55.501 -04:00 [INF] Executed DbCommand (208ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserId], [u].[Email], [u].[PasswordHash], [u].[Role], [u].[UserName]
+FROM [users] AS [u]
+2025-06-05 10:07:55.920 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AuthUPS.Models.User, AuthUPS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-05 10:07:55.949 -04:00 [INF] Executed action AuthUPS.Controller.AuthUPSController.getusers (AuthUPS) in 5291.9844ms
+2025-06-05 10:07:55.955 -04:00 [INF] Executed endpoint 'AuthUPS.Controller.AuthUPSController.getusers (AuthUPS)'
+2025-06-05 10:07:55.965 -04:00 [INF] HTTP POST /api/AuthUPS responded 200 in 5790.9640 ms
+2025-06-05 10:07:55.988 -04:00 [INF] Request finished HTTP/2 POST https://localhost:7239/api/AuthUPS - 200 null application/json; charset=utf-8 5869.7422ms
+2025-06-05 10:08:32.967 -04:00 [INF] User profile is available. Using 'C:\Users\bharg\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-05 10:08:33.243 -04:00 [INF] Now listening on: https://localhost:7239
+2025-06-05 10:08:33.259 -04:00 [INF] Now listening on: http://localhost:5027
+2025-06-05 10:08:33.267 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-05 10:08:33.272 -04:00 [INF] Hosting environment: Development
+2025-06-05 10:08:33.274 -04:00 [INF] Content root path: C:\Users\bharg\source\repos\AuthUPS\AuthUPS
+2025-06-05 10:08:33.965 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7239/swagger/index.html - null null
+2025-06-05 10:08:34.239 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7239/swagger/index.html - 200 null text/html;charset=utf-8 280.3452ms
+2025-06-05 10:08:34.248 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7239/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-05 10:08:34.258 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7239/_vs/browserLink - null null
+2025-06-05 10:08:34.264 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7239/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 15.8644ms
+2025-06-05 10:08:34.303 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.4657ms
+2025-06-05 10:08:34.416 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7239/swagger/v1/swagger.json - null null
+2025-06-05 10:08:34.534 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7239/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 118.2087ms
